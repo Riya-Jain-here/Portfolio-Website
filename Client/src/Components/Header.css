@@ -1,0 +1,34 @@
+.navbar-expand-lg{
+    background-color: #1a1a1a !important;
+    border-width: 0 !important;
+    border: none !important;
+    height: 10vh;
+}
+
+.container-fluid{
+    margin-left: 118vh;
+}
+.nav-item {
+    margin-left:25px;
+}
+
+.navbar-nav.me-auto.mb-2.mb-lg-0 li a{
+    color: white;
+    font-size: 19px;
+}
+
+.text{
+    margin-top: 7px;
+    margin-left: 38px;
+    color: white;
+    font-size: 21px;
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.dropdown-item:hover{
+    color:black;
+    background-color: gray;
+}

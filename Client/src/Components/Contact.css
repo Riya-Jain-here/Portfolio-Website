@@ -1,0 +1,55 @@
+.form-container{
+margin-top: 6%;
+margin-left: 20%;
+}
+
+textarea{
+    margin-top: 10px;
+    width: 60vh;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    resize: none;
+}
+
+label{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+    color: white;
+}
+
+input{
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    width: 60vh;
+    height: 6vh;
+}
+
+button{
+    margin-top: 5%;
+    background-color: green;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    width:20vh;
+    height:6vh;
+    margin-left: 68%;
+}
+
+.App-imgg{
+    margin-left: 45%;
+    margin-top: 31%;
+    height: 65vmin;
+    width: 78vmin;
+    pointer-events: none;
+    border-radius: 100%;
+    border-width: 2vh;
+  }
+  
+  .container-item{
+    display: flex;
+  }

@@ -1,0 +1,30 @@
+table{
+    border:2px solid green;
+    width: 1000px;
+    height:auto;
+    margin-top: 16%;
+    margin-right:40px;
+}
+
+th{
+    color: whitesmoke;
+    border:2px solid green;
+    padding: 10px;
+    font-size: 20px;
+}
+
+td{
+    color: white;
+    padding: 10px;
+    border: 2px solid green;
+}
+
+h2{
+    margin-top: 8%;
+    margin-left: 2%;
+    color: white;
+}
+
+a{
+    color:green;
+}

@@ -1,0 +1,43 @@
+.format-content{
+color: white;
+margin-top: 12%;
+margin-left: 13%;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+p{
+    font-size: 18px;
+}
+
+.linkedin_imgg{
+    width: 28px;
+    height: 26px;
+}
+
+.gmail_imgg{
+    width: 30px;
+    height: 25px;
+}
+
+.btn-success{
+    margin-top: 1px;
+    margin-left: 0px;
+    width:30vh;
+    height:7vh;
+    border-radius:8px;
+}
+
+.App-imgg{
+    margin-left: 45%;
+    margin-top: 31%;
+    height: 65vmin;
+    width: 78vmin;
+    pointer-events: none;
+    border-radius: 100%;
+    border-width: 2vh;
+  }
+  
+  .container-item{
+    display: flex;
+  }
