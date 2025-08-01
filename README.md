@@ -85,19 +85,19 @@ Portfolio/
 ## ✨ Screenshots
 
 ### 🏠 Home Page
-![Home](./Screenshots/Home.png)
+![Home](./Client/Screenshots/Home.png)
 
 ### 👤 About Page
-![About Page](./Screenshots/About.png)
+![About Page](./Client/Screenshots/About.png)
 
 ### 💼 Projects Page
-![Projects](./Screenshots/Projects.png)
+![Projects](./Client/Screenshots/Projects.png)
 
 ### 🧾 Certificates Page
-![Certificates Page](./Screenshots/certificates.png)
+![Certificates Page](./Client/Screenshots/certificates.png)
 
 ### 📞 Contact Page
-![Contact](./Screenshots/contact.png)
+![Contact](./Client/Screenshots/contact.png)
 
 ---
 
