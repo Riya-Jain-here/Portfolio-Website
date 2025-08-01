@@ -94,7 +94,7 @@ Portfolio/
 ![Projects](./Client/Screenshots/Projects.png)
 
 ### 🧾 Certificates Page
-![Certificates Page](./Client/Screenshots/certificates.png)
+![Certificates Page](./Client/Screenshots/certficates.png)
 
 ### 📞 Contact Page
 ![Contact](./Client/Screenshots/contact.png)
