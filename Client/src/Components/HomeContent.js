@@ -15,7 +15,7 @@ export default function HomeContent() {
 
   return (
     <div className="home-container">
-  
+    {/* Particles backgroud*/}
       <Particles
         id="tsparticles"
         init={particlesInit}
