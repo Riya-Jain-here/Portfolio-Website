@@ -1,8 +1,9 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "Contactdb.js",
   "scripts": {
+    "start": "node Contactdb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
