@@ -1,29 +1,28 @@
-import './App.css';
+import "./App.css";
 import Header from "./Components/Header";
 import HomeContent from "./Components/HomeContent";
 import About from "./Components/About";
-import Contact  from './Components/Contact';
+import Contact from "./Components/Contact";
+import Project from "./Components/Project";
 import Certificates from "./Components/Certificates";
+import Footer from "./Components/Footer";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-    <Routes>
-  <Route path='/' element={<Header/>}></Route>
-  </Routes>
-   <div className="App">
-    <div className="container-items">
-      <Routes> 
-      <Route path='/' element={<HomeContent/>}></Route>
-      {/*<Route path="/About" element={<About src="https://www.w3schools.com/html/mov_bbb.mp4"/>} />*/}
-      <Route path="/About" element={<About/>} />
-      <Route path="/Contact" element={<Contact />} />
-      <Route path="/Certificates" element={<Certificates/>} />
-      </Routes> 
-         </div>
-    </div>
-</>
+      <Header />
+      <div className="App">
+          <Routes>
+            <Route path="/" element={<HomeContent />}></Route>
+            <Route path="/About" element={<About />} />
+            <Route path="/Contact" element={<Contact />} />
+            <Route path="/Project" element={<Project />} />
+            <Route path="/Certificates" element={<Certificates />} />
+          </Routes>
+          <Footer />
+        </div>
+    </>
   );
 }
 

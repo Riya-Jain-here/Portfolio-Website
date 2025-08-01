@@ -1,13 +1,62 @@
-.container{
-    margin-top: 6%;
-    margin-left: 2%;
-    justify-content: left;
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 
-h3{
-    color: wheat;
+#tsparticles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  overflow: hidden;
 }
 
-p{
-    color: white;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 40px;
+  flex-wrap: wrap;
+  background-color: #000;
+  color: #f0f0f0;
+  min-height: 100vh;
+  position: relative;
+  z-index: 2;
+}
+
+.items-container {
+  display: block;
+  max-width: 800px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  z-index: 2;
+  text-align: center;
+  align-items: center;
+  line-height: 1.8;
+  padding: 15px;
+}
+
+.items-container h2 {
+  color: #64ccc5;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
