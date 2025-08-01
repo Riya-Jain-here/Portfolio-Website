@@ -101,12 +101,6 @@ Portfolio/
 
 ---
 
-## 📃 License
-
-This project is licensed under the MIT License.
-
----
-
 ## 🙋‍♀️ About Me
 
 I'm Riya Jain, an MCA graduate passionate about building user-focused, visually appealing, and functional web applications.  
